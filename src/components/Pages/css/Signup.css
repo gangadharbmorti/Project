@@ -1,0 +1,64 @@
+.form h2 {
+  text-align: center;
+}
+.form{
+  margin: 2rem auto;
+  padding: 1rem;
+  width: 60%;
+  max-width: 30rem;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.form-details label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+}
+
+.form-details input {
+  font: inherit;
+  display: block;
+  width: 100%;
+  border: 1px solid rgb(226, 222, 222);
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+.btn {
+  font: inherit;
+  border: 1px solid #4f005f;
+  background: #4f005f;
+  color: white;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+  max-width: 20rem;
+  margin-bottom: 0.2rem;
+}
+
+.btn:hover,
+.btn:active {
+  background: #741188;
+  border-color: #741188;
+}
+
+.table{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+
+  margin: 2rem auto;
+  padding: 1rem;
+  width: 100%;
+  max-width: 40rem;
+  background-color: white;
+  border-radius: 20px;
+  align-items: center;
+}
+
+
+td, th {
+  border: 2px solid #dddddd;
+  text-align: center;
+  padding: 10px;
+}
+

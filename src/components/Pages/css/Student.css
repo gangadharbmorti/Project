@@ -1,0 +1,48 @@
+.Formik-group{
+    margin: 2rem auto;
+  padding: 1rem;
+  width: 60%;
+  max-width: 30rem;
+  background-color: white;
+  border-radius: 20px;
+}
+h2{
+    text-align: center;
+}
+.Formik-data label{
+    display: block;
+    font-weight: bold;
+   
+    margin-bottom: 0.6rem;
+}
+.formik-input{
+    font: inherit;
+    display: block;
+    width: 100%;
+    border: 1px solid rgb(201, 188, 188);
+    padding: 0.5rem;
+  border-radius: 10px;
+  margin-bottom: 0.6rem;
+}
+.error{
+    color: red;
+    margin-bottom: 5px;
+    font-size: 0.7rem;
+}
+.btn{
+    margin-top: 2rem;
+  font: inherit;
+  border: 1px solid #4f005f;
+  background: #4f005f;
+  color: white;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+  max-width: 20rem;
+  margin-bottom: 0.2rem;
+}
+
+.btn:hover,
+.btn:active {
+  background: #741188;
+  border-color: #741188;
+}
